@@ -3,8 +3,8 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args){
 
-        JFrame frame = new JFrame("lmao");
-        drawingApp panel = new drawingApp();
+        JFrame frame = new JFrame("rrr");
+        DrawingApp panel = new DrawingApp();
 
         panel.addCircles(new Circle(50, 50, 40));
         panel.addSquares(new Square(150, 100, 60));
