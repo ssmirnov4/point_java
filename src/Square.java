@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class Square extends Point{
     private double side;
 
@@ -13,5 +15,10 @@ public class Square extends Point{
     }
     public double getArea(){
         return side * side;
+    }
+
+    public void draw(Graphics g){
+        g.setColor(Color.GRAY);
+        g.fillRect((int)getX(), (int)getY(), (int)side, (int)side);
     }
 }
